@@ -17,7 +17,7 @@ my_id_str = ('123')
 print(my_id_str)
 
 #3.5
-#my_name + my_id 
+#my_name + my_id Will not work. String + Number wont work.
 
 #3.6
 print(my_name + my_id_str)
@@ -29,6 +29,7 @@ print(my_name * 3)
 print('hello, world. This is my first python string'.split('.'))
 
 #3.9
-message = ("Tom's id is 123")
+#message = 'Tom's id is 123'
+message = "Tom's id is 123"
 print(message)
 
